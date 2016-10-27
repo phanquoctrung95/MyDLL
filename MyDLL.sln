@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyDLL", "MyDLL\MyDLL.vcxproj", "{B38C9438-2149-42D3-8DF7-C1BA23288C72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Paint_DLL", "Paint_DLL\Paint_DLL.vcxproj", "{9DF0A030-16B3-45B4-A98F-2FD1A4020685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83DA85B3-57AB-46DD-A7E8-12AB088AE1CA}"
+	ProjectSection(SolutionItems) = preProject
+		Paint_DLL\Paint.png = Paint_DLL\Paint.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B38C9438-2149-42D3-8DF7-C1BA23288C72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B38C9438-2149-42D3-8DF7-C1BA23288C72}.Debug|Win32.Build.0 = Debug|Win32
+		{B38C9438-2149-42D3-8DF7-C1BA23288C72}.Release|Win32.ActiveCfg = Release|Win32
+		{B38C9438-2149-42D3-8DF7-C1BA23288C72}.Release|Win32.Build.0 = Release|Win32
+		{9DF0A030-16B3-45B4-A98F-2FD1A4020685}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DF0A030-16B3-45B4-A98F-2FD1A4020685}.Debug|Win32.Build.0 = Debug|Win32
+		{9DF0A030-16B3-45B4-A98F-2FD1A4020685}.Release|Win32.ActiveCfg = Release|Win32
+		{9DF0A030-16B3-45B4-A98F-2FD1A4020685}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
